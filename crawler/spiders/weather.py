@@ -20,7 +20,6 @@ CITYS = [
     {'city': 'Chongqing', 'state_name': 'China', 'code': 'ZUCK', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #重庆
     {'city': 'Shanghai', 'state_name': 'China', 'code': 'ZSSS', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #上海
     {'city': 'Shijiazhuang', 'state_name': 'China', 'code': 'ZBSJ', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #石家庄
-    {'city': 'Shenyang', 'state_name': 'China', 'code': 'ZYYY', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #沈阳
     {'city': 'Hangzhou', 'state_name': 'China', 'code': 'ZSHC', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #杭州
     {'city': 'Fuzhou', 'state_name': 'China', 'code': 'ZSFZ', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #福州
     {'city': 'Guangzhou', 'state_name': 'China', 'code': 'ZGGG', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #广州
@@ -90,7 +89,7 @@ class WeatherSpider(scrapy.Spider):
 def date_range(begin_date, end_date):
      dates = []
      dt = datetime.datetime.strptime(begin_date, "%Y-%m-%d")
-     dates.append(dt.strftime("%Y/%m/%d/"))
+     dates.append(dt.strftime("%Y/%m/%d"))
      date = begin_date[:]
      while date < end_date:
          dt = dt + datetime.timedelta(1)
