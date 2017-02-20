@@ -15,7 +15,29 @@ from crawler.items import WeatherItem
 
 
 CITYS = [
-    {'city': 'Beijing', 'state_name': 'China', 'code': 'ZBAA', 'start_date': '2000-01-01', 'end_date': '2017-02-16'}
+    {'city': 'Beijing', 'state_name': 'China', 'code': 'ZBAA', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #北京
+    {'city': 'Tianjin', 'state_name': 'China', 'code': 'ZBTJ', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #天津
+    {'city': 'Chongqing', 'state_name': 'China', 'code': 'ZUCK', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #重庆
+    {'city': 'Shanghai', 'state_name': 'China', 'code': 'ZSSS', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #上海
+    {'city': 'Shijiazhuang', 'state_name': 'China', 'code': 'ZBSJ', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #石家庄
+    {'city': 'Shenyang', 'state_name': 'China', 'code': 'ZYYY', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #沈阳
+    {'city': 'Hangzhou', 'state_name': 'China', 'code': 'ZSHC', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #杭州
+    {'city': 'Fuzhou', 'state_name': 'China', 'code': 'ZSFZ', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #福州
+    {'city': 'Guangzhou', 'state_name': 'China', 'code': 'ZGGG', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #广州
+    {'city': 'Wuhan', 'state_name': 'China', 'code': 'ZHHH', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #武汉
+    {'city': 'Kunming', 'state_name': 'China', 'code': 'ZPPP', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #昆明
+    {'city': 'Lanzhou', 'state_name': 'China', 'code': 'ZLLL', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #兰州
+    {'city': 'Taibei', 'state_name': 'China', 'code': 'RCSS', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #台北
+    {'city': 'Nanning', 'state_name': 'China', 'code': 'ZGNN', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #南宁
+    {'city': 'Taiyuan', 'state_name': 'China', 'code': 'ZBYN', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #太原
+    {'city': 'Changchun', 'state_name': 'China', 'code': 'ZYCC', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #长春
+    {'city': 'Nanjing', 'state_name': 'China', 'code': 'ZSNJ', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #南京
+    {'city': 'Hefei', 'state_name': 'China', 'code': 'ZSOF', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #合肥
+    {'city': 'Zhengzhou', 'state_name': 'China', 'code': 'ZHCC', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #郑州
+    {'city': 'Changsha', 'state_name': 'China', 'code': 'ZGHA', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #长沙
+    {'city': 'Haikou', 'state_name': 'China', 'code': 'ZJHK', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #海口
+    {'city': 'Guiyang', 'state_name': 'China', 'code': 'ZUGY', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #贵阳
+    {'city': 'Xi%27An', 'state_name': 'China', 'code': 'ZLXY', 'start_date': '2000-01-01', 'end_date': '2017-02-16'},  #西安
 ]
 
 

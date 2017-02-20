@@ -32,16 +32,16 @@ class WeatherItem(scrapy.Item):
         city: 城市名
         date: 日期
         time: 时间（CST)
-        temp: 气温
-        wind_chil: 风冷温
-        dew_point: 露点
-        humidity: 湿度
-        pressure: 气压
+        temp: 气温（单位：°C）
+        wind_chil: 风冷温（（单位：°C））
+        dew_point: 露点（单位：°C）
+        humidity: 湿度（单位：%）
+        pressure: 气压（单位：hPa）
         visibility: 能见度
-        wind_dir: wind dir
-        wind_speed: 风速
-        gust_speed: 瞬间风速
-        precip: precip
+        wind_dir: 风向。   北（N）、东北东（NNE）、东北（NE）、东东北（ENE）、东（E）、东东南（ESE）、东南（SE）南东南（SSE）、南（S）、南西南（SSW）、西南（SW）、西西南（WSW）、西（W）、西西北（WNW）、西北（NW）、北西北（NNW）
+        wind_speed: 风速（单位：km/h）
+        gust_speed: 瞬间风速（单位：km/h）
+        precip: 降雨量
         event: 活动
         conditions: 状况
     """
